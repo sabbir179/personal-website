@@ -67,14 +67,16 @@ p{
 }
 
 .lastImg{
-    width: 3px;
-    height: 2px;
+    
     float: left;
     margin: 2%;
     padding:  30px;
 }
 
-
+.demo{
+    width: 300px;
+    height: 200px;
+}
 .single-experience{
     box-shadow: 10px 10px 40px gray;
     border-radius: 5px;
@@ -95,11 +97,6 @@ p{
 
 }
 
-#baby-web{
-    border-left: 7px solid;
-    border-image: linear-gradient(180deg, blue, cyan);
-    border-image-slice: 1;
-}
 
 footer p{
     text-align: center;
