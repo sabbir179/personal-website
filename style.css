@@ -25,6 +25,7 @@ section{
 .lastWork{
     background-image: url(images/latest-work-bg.png);
     background-repeat: no-repeat;
+    height: 500px;
 
 }
 section .lastWork{
@@ -130,6 +131,10 @@ p #email{
     float: left;
     margin: 2%;
     padding:  30px;
+}
+
+.lastImg :hover{
+    border: 1px solid #F51678;
 }
 
 .demo{
