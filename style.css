@@ -50,12 +50,20 @@ h1{
 color:#F51678;
 font-size: 30px;
 padding-bottom: 20px;
-}
 
+}
+.top-h{
+    padding-bottom: 2px;
+}
 p{
     color: dimgray;
     padding-bottom: 30px;
 }
+
+.bio-para{
+    padding-top: 200px;
+}
+
 
 .link-button{
     text-decoration: none;
@@ -66,19 +74,34 @@ p{
     font-weight: 700;
 }
 
+a:hover {
+    
+    text-decoration: none;
+    background-image: linear-gradient( 45deg, white, white);
+    padding: 10px 20px;
+    border-radius: 5px;
+    color: #F51678;
+    font-weight: 700;
+    border: 1px solid #F51678;
+
+    
+  }
+
 .lastImg{
-    width: 3px;
-    height: 2px;
+    
     float: left;
     margin: 2%;
     padding:  30px;
 }
 
-
+.demo{
+    width: 300px;
+    height: 200px;
+}
 .single-experience{
     box-shadow: 10px 10px 40px gray;
     border-radius: 5px;
-    height: 80% ;
+    height: 5% ;
     background-color: white;
 }
 
@@ -95,12 +118,9 @@ p{
 
 }
 
-#baby-web{
-    border-left: 7px solid;
-    border-image: linear-gradient(180deg, blue, cyan);
-    border-image-slice: 1;
+.client-text{
+    text-align: center;
 }
-
 footer p{
     text-align: center;
     font-size: 12px;
